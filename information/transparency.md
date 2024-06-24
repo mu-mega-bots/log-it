@@ -13,3 +13,5 @@ Currently Log It does not cache old messages, however for the sake of providing 
 
 ## Have a question, need support, or anything else regarding `Log It`?
 use `/help` and join our Support Server and then create a `DiscordBot Support` ticket
+
+[View Terms](terms.md) | [View Privacy](privacy.md)
