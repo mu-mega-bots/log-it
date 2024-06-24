@@ -10,3 +10,5 @@ Upon removing the bot from you're guild all data is deleted forever
 # By using `log it` you agree to this policy
 
 ### Questions or Concerns? Contact `megautilitiesteam@gmail.com` or contact us via Discord
+
+[View Terms](terms.md)
