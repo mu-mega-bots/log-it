@@ -5,3 +5,5 @@
 
 # Liability
 We are not liable for any damages that may arise from using log it
+
+[View Privacy](privacy.md) | [View Transparency](transparency.md)
