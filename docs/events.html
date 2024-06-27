@@ -39,6 +39,13 @@
       </div>
   </div>
 
+  
+  <div class="alert alert-info d-flex align-items-center text-center alert-dismissible fade show" role="alert">
+  <div>
+    <b>You must run <code>/setup</code> and follow the instructions otherwise you will not recieve the events in you're selected channel(s)</b>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+</div>
    <!-- Events -->
 <section class="bg-dark text-light text-center py-2"><p>This is the list of events supported by Log It | If an event is not working or you have feedback please do so by joining our support server and making a ticket (or forum thread) or using Github Discussions</p></section>
 
@@ -149,7 +156,7 @@
 <div class="accordion-item">
   <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-      stageInstanceUpdate <span class="badge text-bg-warning rounded-pill m-1">Event Untested</span>
+      stageInstanceUpdate <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
     </button>
   </h2>
   <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
@@ -188,7 +195,421 @@
 </div>
 </section>
 
-<section class="bg-dark text-light text-center py-2"><p>We're still adding events to this list</p></section>
+<section class="bg-dark text-light text-center py-5">
+  <h6>emoji events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEC" aria-expanded="false" aria-controls="flush-collapseEC">
+          emojiCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseEC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when an emoji is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTT" aria-expanded="false" aria-controls="flush-collapseTT">
+            emojiDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseTT" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when an emoji is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAA" aria-expanded="false" aria-controls="flush-collapseAA">
+          emojiUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseAA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when an emoji is updated</div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>event events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEA" aria-expanded="false" aria-controls="flush-collapseEA">
+          guildScheduledEventCreate <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
+        </button>
+      </h2>
+      <div id="flush-collapseEA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when an event is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGG" aria-expanded="false" aria-controls="flush-collapseGG">
+            guildScheduledEventDelete <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
+          </button>
+        </h2>
+        <div id="flush-collapseGG" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when an event is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAC" aria-expanded="false" aria-controls="flush-collapseAC">
+          guildScheduledEventUpdate <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
+        </button>
+      </h2>
+      <div id="flush-collapseAC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when an event is updated</div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseAB" aria-expanded="false" aria-controls="flush-collapseAB">
+        guildScheduledEventUserAdd <span class="badge text-bg-info rounded-pill m-1">Requires Premium (COMING SOON)</span>
+      </button>
+    </h2>
+    <div id="flush-collapseAB" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+      <div class="accordion-body">This event is supposed to run when a user wants notified for an event</div>
+    </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEU" aria-expanded="false" aria-controls="flush-collapseEU">
+      guildScheduledEventUserRemove <span class="badge text-bg-info rounded-pill m-1">Requires Premium (COMING SOON)</span>
+    </button>
+  </h2>
+  <div id="flush-collapseEU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+    <div class="accordion-body">This event is supposed to run when a user opts out for being notified for an event</div>
+  </div>
+</div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>invite events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseIC" aria-expanded="false" aria-controls="flush-collapseIC">
+          inviteCreate <span class="badge text-bg-danger rounded-pill m-1">Needs More Tests</span>
+        </button>
+      </h2>
+      <div id="flush-collapseIC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when an invite is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseID" aria-expanded="false" aria-controls="flush-collapseID">
+            inviteDelete <span class="badge text-bg-danger rounded-pill m-1">Needs More Tests</span>
+          </button>
+        </h2>
+        <div id="flush-collapseID" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when an invite is deleted</div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>message events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMC" aria-expanded="false" aria-controls="flush-collapseMC">
+          messageCreate <span class="badge text-bg-info rounded-pill m-1">Premium (COMING SOON)</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a message is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMD" aria-expanded="false" aria-controls="flush-collapseMD">
+            messageDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseMD" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when a message is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMU" aria-expanded="false" aria-controls="flush-collapseMU">
+          messageUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when a message is edited</div>
+      </div>
+  </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMDB" aria-expanded="false" aria-controls="flush-collapseMDB">
+          messageDeleteBulk <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMDB" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when you <code>delete a mass amount of messages</code> (i.e a purge command)</div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRA" aria-expanded="false" aria-controls="flush-collapseMRA">
+        messageReactionAdd <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
+      </button>
+    </h2>
+    <div id="flush-collapseMRA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+      <div class="accordion-body">This event is supposed to run when <code>a reaction</code> is added to a message</div>
+    </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRR" aria-expanded="false" aria-controls="flush-collapseMRR">
+      messageReactionRemove <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
+    </button>
+  </h2>
+  <div id="flush-collapseMRR" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+    <div class="accordion-body">This event is supposed to run when <code>a reaction</code> is removed from a message</div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRRA" aria-expanded="false" aria-controls="flush-collapseMRRA">
+      messageReactionRemoveAll <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
+    </button>
+  </h2>
+  <div id="flush-collapseMRRA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+    <div class="accordion-body">This event is supposed to run when <code>all reactions</code> are removed from a message</div>
+  </div>
+</div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>role events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseRC" aria-expanded="false" aria-controls="flush-collapseRC">
+          roleCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseRC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a new role is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseRD" aria-expanded="false" aria-controls="flush-collapseRD">
+            roleDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseRD" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when a role is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseRU" aria-expanded="false" aria-controls="flush-collapseRU">
+          roleUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseRU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when a role is updated</div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>server events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRC" aria-expanded="false" aria-controls="flush-collapseMRC">
+          autoModerationRuleCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMRC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when an automod rule is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRD" aria-expanded="false" aria-controls="flush-collapseMRD">
+            autoModerationRuleDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseMRD" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when an automod rule is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRU" aria-expanded="false" aria-controls="flush-collapseMRU">
+          autoModerationRuleUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMRU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when an automod rule is edited</div>
+      </div>
+  </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseIU" aria-expanded="false" aria-controls="flush-collapseIU">
+          guildIntegrationsUpdate <span class="badge text-bg-danger rounded-pill m-1">Needs More Testing</span>
+        </button>
+      </h2>
+      <div id="flush-collapseIU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when you a guild has it's integrations changed or edited</div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGU" aria-expanded="false" aria-controls="flush-collapseGU">
+        guildUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+      </button>
+    </h2>
+    <div id="flush-collapseGU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+      <div class="accordion-body">This event is supposed to run when the guild has it's name or boost level changed</div>
+    </div>
+</div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>sticker events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSC" aria-expanded="false" aria-controls="flush-collapseSC">
+          stickerCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseSC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a sticker is created</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSD" aria-expanded="false" aria-controls="flush-collapseSD">
+            stickerDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseSD" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when a sticker is deleted</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSU" aria-expanded="false" aria-controls="flush-collapseSU">
+          stickerUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseSU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when a sticker is updated</div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>user events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGMA" aria-expanded="false" aria-controls="flush-collapseGMA">
+          guildMemberAdd <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseGMA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a member joins</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGMR" aria-expanded="false" aria-controls="flush-collapseGMR">
+            guildMemberRemove <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseGMR" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when a member is removed or leaves</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGRU" aria-expanded="false" aria-controls="flush-collapseGRU">
+          guildMemberUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseGRU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when a member is updated</div>
+      </div>
+  </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGMS" aria-expanded="false" aria-controls="flush-collapseGMS">
+          guildMembersChunk <span class="badge text-bg-danger rounded-pill m-1">Needs More Testing</span>
+        </button>
+      </h2>
+      <div id="flush-collapseGMS" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when you a guild has a chunk of members (come from an invite?, this event is a bit hard for even us to understand)</div>
+      </div>
+  </div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>voice events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRC" aria-expanded="false" aria-controls="flush-collapseMRC">
+          voiceStateUpdate <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
+        </button>
+      </h2>
+      <div id="flush-collapseMRC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a user updates a voice state within a voice channel</div>
+      </div>
+      </div>
+  </div>
+</div>
+</section>
+
+<section class="bg-dark text-light text-center py-5">
+  <h6>bot focused events</h6>
+  <div class="container">
+  <div class="accordion accordion-flush" id="accordionFlushBan">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGASDF" aria-expanded="false" aria-controls="flush-collapseGASDF">
+          guildUnavailable <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseGASDF" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
+        <div class="accordion-body">This event is supposed to run when a guild that Log It is in becomes unavailable (will send a message to support server)</div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGD" aria-expanded="false" aria-controls="flush-collapseGD">
+            guildDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          </button>
+        </h2>
+        <div id="flush-collapseGD" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+          <div class="accordion-body">This event is supposed to run when a guild removes Log It (deletes data and posts a message in support server)</div>
+        </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseGA" aria-expanded="false" aria-controls="flush-collapseGA">
+          guildCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+        </button>
+      </h2>
+      <div id="flush-collapseGA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
+        <div class="accordion-body">This event is supposed to run when a guild adds Log It (sends a message in support server)</div>
+      </div>
+  </div>
+</div>
+</section>
+
+<section class="bg-dark text-light text-center py-2"><p>This list will be updated as needed | If an event is broken we will fix it in an update | If an event needs more testing or is untested we ask that you let us know if it doesn't work</p></section>
 <!-- footer -->
 
 <div class="footer-clean bg-dark">
