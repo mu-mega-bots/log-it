@@ -1,5 +1,5 @@
 # Transparency
-### Last Edited 1:57PM Eastern Standard Time (New York) | 6/24/2024
+### Last Edited 4:07PM Eastern Standard Time (New York) | 8/9/2024
 
 # Event Activity That Is Stored
 Guild Name, Deleted Messages (Includes the content this does NOT support bulk deletion i.e using a purge command), Edited Messages (includes the content), guildUpdates (Only contains the newName the old name is NOT stored unless previously logged in a log file), emoji updates, etc (most events that are recorded will end up having data stored in log.txt we do NOT sell this data and nor do we do anything with it. We only use the data to help find issues if they are reported or found during a log check)
