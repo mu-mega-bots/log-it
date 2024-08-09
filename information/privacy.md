@@ -7,7 +7,7 @@ We collect and store you're Guild ID, selected channels id's, and [all event act
 Additionally when you add `Log It` to a guild we record that `Log It` Joined a new guild (guild name is recorded) in our support server.
 
 # Data Deletion
-Upon removing the bot from you're guild all data is deleted forever
+Upon removing the bot from your guild all data is deleted forever (unless there is data within the log.txt file)
 
 # By using `log it` you agree to this policy
 
