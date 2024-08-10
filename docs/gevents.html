@@ -46,25 +46,8 @@
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
 </div>
-<h1><code>THIS PAGE IS OPTIMIZED FOR DISCORD EVENTS AT THE MOMENT WE ARE UPDATING IT! THE ONLY EVENT SUPPORTED IN LOG IT ON GUILDED IS MESSAGE DELETE! MORE TO COME!</code></h1>
    <!-- Events -->
 <section class="bg-dark text-light text-center py-2"><p>This is the list of events supported by Log It | If an event is not working or you have feedback please do so by joining our support server and making a ticket (or forum thread) or using Github Discussions</p></section>
-
-   <section class="bg-dark text-light text-center py-5">
-    <h6>app events</h6>
-    <div class="container">
-    <div class="accordion accordion-flush" id="accordionFlushExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-            applicationCommandPermissionsUpdate <span class="badge text-bg-danger rounded-pill m-1">Needs More Tests</span>
-          </button>
-        </h2>
-        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-          <div class="accordion-body">This event is supposed to run when an application(s) command(s) update or permissions change</div>
-        </div>
-      </div>
-</section>
 
 <section class="bg-dark text-light text-center py-5">
   <h6>ban events</h6>
@@ -98,7 +81,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-          channelCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          channelCreated <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
         </button>
       </h2>
       <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelCreate">
@@ -107,7 +90,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-            channelDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+            channelDeleted <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
           </button>
         </h2>
         <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelDelete">
@@ -117,83 +100,13 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-          channelPinsUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          channelUpdated <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
         </button>
       </h2>
       <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
         <div class="accordion-body">This event is supposed to run when a channel has it's pins updated</div>
       </div>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-        channelUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-      </button>
-    </h2>
-    <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushUpdate">
-      <div class="accordion-body">This event is supposed to run when a channel has an update (i.e name change)</div>
-    </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-      stageInstanceCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-    </button>
-  </h2>
-  <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushStageCreate">
-    <div class="accordion-body">This event is supposed to run when a stage begins</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-      stageInstanceDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-    </button>
-  </h2>
-  <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushStageEnd">
-    <div class="accordion-body">This event is supposed to run when a stage ends</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-      stageInstanceUpdate <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
-    </button>
-  </h2>
-  <div id="flush-collapseTen" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
-    <div class="accordion-body">This event is supposed to run when a stage is updated</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseA" aria-expanded="false" aria-controls="flush-collapseA">
-      threadCreate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-    </button>
-  </h2>
-  <div id="flush-collapseA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
-    <div class="accordion-body">This event is supposed to run when a channel has a thread created</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseB" aria-expanded="false" aria-controls="flush-collapseB">
-      threadDelete <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-    </button>
-  </h2>
-  <div id="flush-collapseB" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
-    <div class="accordion-body">This event is supposed to run when a channel has a thread deleted</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseC" aria-expanded="false" aria-controls="flush-collapseC">
-      threadUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
-    </button>
-  </h2>
-  <div id="flush-collapseC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushChannelPins">
-    <div class="accordion-body">This event is supposed to run when a channel has a thread updated</div>
-  </div>
-</div>
 </section>
 
 <section class="bg-dark text-light text-center py-5">
