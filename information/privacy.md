@@ -9,7 +9,7 @@ Additionally when you add `Log It` to a guild we record that `Log It` Joined a n
 # Data Deletion
 Upon removing the bot from your guild all data is deleted forever (unless there is data within the log.txt file)
 
-### This does not occur if you are using the Guilded Version of Log It. We most likely won't delete any data manually unless requested. If you ever want your data deleted you may email us or contact us via a social provider.
+### This does not occur if you are using the Guilded Version of Log It. We most likely won't delete any data manually unless requested. If you ever want your data deleted you may email us or contact us via a social provider. (log.txt data does not apply)
 
 # By using `log it` you agree to this policy
 
