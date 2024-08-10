@@ -73,7 +73,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          guildBanAdd <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          memberBanned <span class="badge text-bg-danger rounded-pill m-1">Needs Testing</span>
         </button>
       </h2>
       <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
@@ -82,7 +82,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-            guildBanRemove <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+            memberUnbanned <span class="badge text-bg-danger rounded-pill m-1">Needs Testing</span>
           </button>
         </h2>
         <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
@@ -318,7 +318,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMC" aria-expanded="false" aria-controls="flush-collapseMC">
-          messageCreate <span class="badge text-bg-info rounded-pill m-1">Premium (COMING SOON)</span>
+          messageCreate <span class="badge text-bg-info rounded-pill m-1">unknown if we will support</span>
         </button>
       </h2>
       <div id="flush-collapseMC" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanAdd">
@@ -337,7 +337,7 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMU" aria-expanded="false" aria-controls="flush-collapseMU">
-          messageUpdate <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          messageUpdated <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
         </button>
       </h2>
       <div id="flush-collapseMU" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
@@ -347,42 +347,22 @@
     <div class="accordion-item">
       <h2 class="accordion-header">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMDB" aria-expanded="false" aria-controls="flush-collapseMDB">
-          messageDeleteBulk <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
+          messageReactionCreated <span class="badge text-bg-success rounded-pill m-1">Event Works</span>
         </button>
       </h2>
       <div id="flush-collapseMDB" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
-        <div class="accordion-body">This event is supposed to run when you <code>delete a mass amount of messages</code> (i.e a purge command)</div>
+        <div class="accordion-body">This event is supposed to run when you <code>add a reaction</code> to a message</div>
       </div>
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRA" aria-expanded="false" aria-controls="flush-collapseMRA">
-        messageReactionAdd <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
+        messageReactionDeleted <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
       </button>
     </h2>
     <div id="flush-collapseMRA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
-      <div class="accordion-body">This event is supposed to run when <code>a reaction</code> is added to a message</div>
+      <div class="accordion-body">This event is supposed to run when <code>a reaction</code> is removed from a message</div>
     </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRR" aria-expanded="false" aria-controls="flush-collapseMRR">
-      messageReactionRemove <span class="badge text-bg-danger rounded-pill m-1">Broken</span>
-    </button>
-  </h2>
-  <div id="flush-collapseMRR" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
-    <div class="accordion-body">This event is supposed to run when <code>a reaction</code> is removed from a message</div>
-  </div>
-</div>
-<div class="accordion-item">
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseMRRA" aria-expanded="false" aria-controls="flush-collapseMRRA">
-      messageReactionRemoveAll <span class="badge text-bg-warning rounded-pill m-1">Untested</span>
-    </button>
-  </h2>
-  <div id="flush-collapseMRRA" class="accordion-collapse collapse" data-bs-parent="#accordionFlushBanRemove">
-    <div class="accordion-body">This event is supposed to run when <code>all reactions</code> are removed from a message</div>
-  </div>
 </div>
 </section>
 
