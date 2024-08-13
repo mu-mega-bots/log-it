@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <meta name="description" content="Log It bot for Guilded Event Docs">
