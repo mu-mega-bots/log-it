@@ -12,7 +12,7 @@
 
 ### Last Edited: 8/12/2024 | 7:39PM (EST)
 
-[Go Back to Index](./index.html) [Join our Guilded Server](https://www.guilded.gg/Mega-Utilities) | [Add Log It](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a) | [GitHub Discussions](https://github.com/orgs/mu-mega-bots/discussions) | [Changelog](../pages/changelogs)
+[Go Back to Index](./index.html) | [Join our Guilded Server](https://www.guilded.gg/Mega-Utilities) | [Add Log It](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a) | [GitHub Discussions](https://github.com/orgs/mu-mega-bots/discussions) | [Changelog](../pages/changelogs) | [Status Page](https://megauilitiesstatus.statuspage.io)
 
 # Supported Events
 announcementCommentCreate - triggers when an announcement is commented upon
@@ -93,3 +93,7 @@ reactionAdd, reactionBulkRemove, and reactionRemove
 userStatusCreate and Delete - Most likely won't end up supporting
 
 announcementDelete - triggers when an announcement is deleted
+
+
+### Legal
+[terms](../information/terms) | [Privacy Policy](../information/privacy) | [Transparency](../information/transparency)
