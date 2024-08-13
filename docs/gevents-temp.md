@@ -1,57 +1,19 @@
-<html lang="en">
-  <head>
+<head>
     <meta name="description" content="Log It bot for Guilded Event Docs">
     <meta property="og:title" content="Log It Bot | Events" />
     <meta property="og:description" content="Log It bot for Guilded event descriptions" />
     <meta property="og:site_name" content="Log It" />
     <meta property="og:type" content="Website" />
-    <style>
-body {
-  background-color: black;
-}
-
-h1 {
-  color: white;
-}
-
-h2 {
-  color: white;
-}
-
-h3 {
-  color: white;
-}
-
-h4 {
-  color: white;
-}
-
-h5 {
-  color: white;
-}
-
-h6 {
-  color: white;
-}
-
-p {
-  color: white;
-}
-
-code {
-  color: red;
-}
-</style>
   </head>
-<h1>Log It events Guilded</h1>
+# Log It events Guilded
 
-<h3>This page is only temporary until we finish the HTML Version</h3>
+### This page is only temporary until we finish the HTML Version
 
-<h3>Last Edited: 8/12/2024 | 7:39PM (EST)</h3>
+### Last Edited: 8/12/2024 | 7:39PM (EST)
 
 [Go Back to Index](./index.html) [Join our Guilded Server](https://www.guilded.gg/Mega-Utilities) | [Add Log It](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a) | [GitHub Discussions](https://github.com/orgs/mu-mega-bots/discussions) | [Changelog](../pages/changelogs)
 
-<h1>Supported Events</h1>
+# Supported Events
 announcementCommentCreate - triggers when an announcement is commented upon
 
 announcementCommentDelete - triggers when an announcement comment is deleted
@@ -86,7 +48,7 @@ messageDelete, Pin, Unpin, and Update
 
 webhooksCreate & Update
 
-<h1>Unsupported Events (will most LIKELY be added in an update)</h1>
+# Unsupported Events (will most LIKELY be added in an update)
 calanderEventRsvpBulkUpdate
 
 calanderEventRsvpDelete
