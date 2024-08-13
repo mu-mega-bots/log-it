@@ -92,8 +92,6 @@ reactionAdd, reactionBulkRemove, and reactionRemove
 
 userStatusCreate and Delete - Most likely won't end up supporting
 
-announcementDelete - triggers when an announcement is deleted
-
 
 ### Legal
 [terms](../information/terms) | [Privacy Policy](../information/privacy) | [Transparency](../information/transparency)
