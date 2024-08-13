@@ -5,6 +5,7 @@
     <meta property="og:site_name" content="Log It" />
     <meta property="og:type" content="Website" />
   </head>
+  
 # Log It events Guilded
 
 ### This page is only temporary until we finish the HTML Version
