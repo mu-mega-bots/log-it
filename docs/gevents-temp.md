@@ -43,12 +43,15 @@ code {
 }
 </style>
   </head>
-# Log It events Guilded
-### This page is only temporary until we finish the HTML Version
-### Last Edited: 8/12/2024 | 7:39PM (EST)
+<h1>Log It events Guilded</h1>
+
+<h3>This page is only temporary until we finish the HTML Version</h3>
+
+<h3>Last Edited: 8/12/2024 | 7:39PM (EST)</h3>
+
 [Go Back to Index](./index.html) [Join our Guilded Server](https://www.guilded.gg/Mega-Utilities) | [Add Log It](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a) | [GitHub Discussions](https://github.com/orgs/mu-mega-bots/discussions) | [Changelog](../pages/changelogs)
 
-# Supported Events
+<h1>Supported Events</h1>
 announcementCommentCreate - triggers when an announcement is commented upon
 
 announcementCommentDelete - triggers when an announcement comment is deleted
@@ -83,7 +86,7 @@ messageDelete, Pin, Unpin, and Update
 
 webhooksCreate & Update
 
-# Unsupported Events (will most LIKELY be added in an update)
+<h1>Unsupported Events (will most LIKELY be added in an update)</h1>
 calanderEventRsvpBulkUpdate
 
 calanderEventRsvpDelete
