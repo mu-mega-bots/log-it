@@ -1,5 +1,10 @@
 # Log It Changelogs
 [Add Log It to Discord](https://discord.com/oauth2/authorize?client_id=1209409824253677578) | [Add Log It to Guilded](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a)
+---
+
+## 0.0.1 R (8/27/2024 | Published at 4:03PM)
+### Only issue is old stuff will be uncached due to the restart
+- Fixed an issue with messageUpdate
 
 ---
 
