@@ -12,7 +12,7 @@ Upon removing the bot from your guild all data is deleted forever (unless there 
 ### This does not occur if you are using the Guilded Version of Log It. We most likely won't delete any data manually unless requested. If you ever want your data deleted you may email us or contact us via a social provider. (log.txt data does not apply)
 
 # Third Party
-We use [Sentry.io](https://sentry.io) to automatically collect error data you agree to their [Privacy Policy](https://sentry.io/privacy) and [Terms of Service](https://sentry.io/terms) Agreements by using Log It | You may view all of Sentry's Legal Stuff [here](https://sentry.io/legal/) and for [California Residents](https://sentry.io/trust/privacy/california/)
+We use [Sentry.io](https://sentry.io) to automatically collect error data. You agree to their [Privacy Policy](https://sentry.io/privacy) and [Terms of Service](https://sentry.io/terms) Agreements by using Log It | You may view all of Sentry's Legal Stuff [here](https://sentry.io/legal/) and for [California Residents](https://sentry.io/trust/privacy/california/)
 
 # By using `log it` you agree to this policy
 
