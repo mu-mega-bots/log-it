@@ -2,6 +2,11 @@
 [Add Log It to Discord](https://discord.com/oauth2/authorize?client_id=1209409824253677578) | [Add Log It to Guilded](https://www.guilded.gg/b/4d8fc585-5db0-4af8-9118-8c8b4ce7270a) | [Add Log It to Revolt](https://app.revolt.chat/bot/01J4Q9DS6CV4DNCW6AZRMV349A)
 ---
 
+## 0.0.3 R (9/23/2024 | Published at 7:33PM)
+- Track author in Message Delete Event
+
+---
+
 ## 0.0.2 R (9/21/2024 | Published at 5:34PM)
 - Hopefully fixed the issue with incorrect reporting of leaving servers. This should have fixed the issue with settings for your servers being deleted in the database as well.
 
