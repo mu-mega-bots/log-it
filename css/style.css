@@ -62,7 +62,7 @@
   opacity:0.6;
 }
 
-.footer .icons {
+        .footer .icons {
             display: flex;
             justify-content: center;
             gap: 15px;
